@@ -187,7 +187,7 @@ for (i=0;i<30;i++){
 }
 
 function setup(){
-  createCanvas(1000,1000);
+  createCanvas(800,950);
   img = loadImage("Blocks.png");
   frameRate(30);
   
