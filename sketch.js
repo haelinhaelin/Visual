@@ -133,7 +133,7 @@
      while(this.pivot < -1 + this.blocks.length * this.blocks[0].length){
        this.pivot++;
        console.log(this.pivot+" "+this.blocks.length+" " +this.blocks[0].length);
-       if (this.blocks[Math.floor(this.pivot/this.blocks[0].length)][Math.floor(this.pivot%this.blocks[0].length)] != null){
+       if (this.blocks[Math.floor(this.pivot/this.blocks[0].length)][Math.floor(this.pivot%this.blocks.length)] != null){
          break;
        }
      }
@@ -226,7 +226,7 @@ let a6 =color(57,42,31);
 
 function draw(){
    background(0);
-   image(img, 0, 0);
+   //image(img, 0, 0);
    
    for (var i=0;i<alphabets.length;i++){
      alphabets[i].wasHovered = alphabets[i].isHovered;
