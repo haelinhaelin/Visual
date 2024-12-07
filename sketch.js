@@ -1,4 +1,5 @@
- class Block{
+new p5();
+class Block{
  
   constructor(x, y, c){
   this.x = x;
